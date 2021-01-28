@@ -6,6 +6,13 @@
 3. Nodemon : v2.0.7
 4. Eslint : v7.18.0
 5. Express-Handlebars : v5.2.0
+6. Body-Parser : v1.19.0
+7. Express-Flash : v0.0.2
+8. Express-Session : v1.17.1
+9. Express-Validator : v6.9.2
+10. Method-Override : v3.0.0
+11. Passport : v0.4.1
+12. Passport-Local : v1.0.0
 
 ## 安裝與執行步驟 (Installation and Execution)
 1. 將專案複製到本機 (兩種方法)

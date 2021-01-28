@@ -1,6 +1,9 @@
 <div class="content w-100 d-flex justify-content-center align-items-center">
     <div class="container bg-white">
       <h2 class="text-center">Register</h2>
+      {{#each errorMessages}}
+        <p>{{this.msg}}</p>
+      {{/each}}
       <form action="/register" method="POST">
         <div class="group">
           <label for="firstName">First-Name</label>

@@ -146,6 +146,7 @@ footer {
   letter-spacing: 1px;
   font-size: 1.1rem;
   font-weight: 500;
+  padding-bottom: 5px;
 }
 
 .content .container form .group {

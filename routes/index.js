@@ -1,12 +1,8 @@
 const express = require('express')
 const router = express.Router()
 
-const home = require('./modules/home')
-const login = require('./modules/login')
-const register = require('./modules/register')
+const control = require('./modules/control')
 
-router.use('/', home)
-router.use('/login', login)
-router.use('/register', register)
+router.use('/', control)
 
 module.exports = router
